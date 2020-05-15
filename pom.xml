@@ -258,7 +258,7 @@
 			<dependency>
 				<groupId>org.hibernate</groupId>
 				<artifactId>hibernate-validator</artifactId>
-				<version>4.3.2.Final</version>
+				<version>6.0.18.Final</version>
 			</dependency>
 			<dependency>
 				<groupId>org.hibernate</groupId>
@@ -1000,9 +1000,9 @@
 				<version>2.10.3</version>
 				<configuration>
 					<docfilessubdirs>true</docfilessubdirs>
-					<bottom>&lt;em&gt;&lt;small&gt; Generated ${TIMESTAMP} NOTE - these libraries are in active development and subject to change&lt;/small&gt;&lt;/em&gt;</bottom>
-					<header>&lt;a href="http://www.openmrs.org" target=_top&gt;&lt;img src="resources/openmrs-logo-small.gif" border=0/&gt;&lt;/a&gt;</header>
-					<footer>&lt;a href="http://www.openmrs.org" target=_top&gt;${project.name}&lt;/a&gt;</footer>
+					<bottom>&lt;em>&lt;small> Generated ${TIMESTAMP} NOTE - these libraries are in active development and subject to change&lt;/small>&lt;/em></bottom>
+					<header>&lt;a href="http://www.openmrs.org" target=_top>&lt;img src="resources/openmrs-logo-small.gif" border=0/>&lt;/a></header>
+					<footer>&lt;a href="http://www.openmrs.org" target=_top>${project.name}&lt;/a></footer>
 				</configuration>
 			</plugin>
 			<plugin>
