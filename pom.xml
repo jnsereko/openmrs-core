@@ -263,7 +263,7 @@
 			<dependency>
 				<groupId>org.hibernate</groupId>
 				<artifactId>hibernate-search-orm</artifactId>
-				<version>5.3.0.Final</version>
+				<version>5.11.7.Final</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.lucene</groupId>
@@ -1000,9 +1000,9 @@
 				<version>2.10.3</version>
 				<configuration>
 					<docfilessubdirs>true</docfilessubdirs>
-					<bottom>&lt;em&gt;&lt;small&gt; Generated ${TIMESTAMP} NOTE - these libraries are in active development and subject to change&lt;/small&gt;&lt;/em&gt;</bottom>
-					<header>&lt;a href="http://www.openmrs.org" target=_top&gt;&lt;img src="resources/openmrs-logo-small.gif" border=0/&gt;&lt;/a&gt;</header>
-					<footer>&lt;a href="http://www.openmrs.org" target=_top&gt;${project.name}&lt;/a&gt;</footer>
+					<bottom>&lt;em>&lt;small> Generated ${TIMESTAMP} NOTE - these libraries are in active development and subject to change&lt;/small>&lt;/em></bottom>
+					<header>&lt;a href="http://www.openmrs.org" target=_top>&lt;img src="resources/openmrs-logo-small.gif" border=0/>&lt;/a></header>
+					<footer>&lt;a href="http://www.openmrs.org" target=_top>${project.name}&lt;/a></footer>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -1057,7 +1057,7 @@
 		<openmrs.version>${project.version}</openmrs.version>
 
 		<springVersion>4.1.4.RELEASE</springVersion>
-		<hibernateVersion>4.3.10.Final</hibernateVersion>
+		<hibernateVersion>5.4.24.Final</hibernateVersion>
 		<customArgLineForTesting/>
 
 		<sonar.host.url>https://sonar.openmrs.org</sonar.host.url>
