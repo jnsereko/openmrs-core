@@ -740,7 +740,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore />
+										<ignore/>
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -759,7 +759,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore />
+										<ignore/>
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -780,7 +780,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore />
+										<ignore/>
 									</action>
 								</pluginExecution>
 							</pluginExecutions>
@@ -1057,9 +1057,9 @@
 				<version>3.4.0</version>
 				<configuration>
 					<docfilessubdirs>true</docfilessubdirs>
-					<bottom>&lt;em&gt;&lt;small&gt; Generated ${TIMESTAMP} NOTE - these libraries are in active development and subject to change&lt;/small&gt;&lt;/em&gt;</bottom>
-					<header>&lt;a href="https://www.openmrs.org" target=_top&gt;&lt;img src="resources/openmrs-logo-small.gif" border=0/&gt;&lt;/a&gt;</header>
-					<footer>&lt;a href="https://www.openmrs.org" target=_top&gt;${project.name}&lt;/a&gt;</footer>
+					<bottom>&lt;em>&lt;small> Generated ${TIMESTAMP} NOTE - these libraries are in active development and subject to change&lt;/small>&lt;/em></bottom>
+					<header>&lt;a href="https://www.openmrs.org" target=_top>&lt;img src="resources/openmrs-logo-small.gif" border=0/>&lt;/a></header>
+					<footer>&lt;a href="https://www.openmrs.org" target=_top>${project.name}&lt;/a></footer>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -1123,7 +1123,7 @@
 		<hibernateSearchVersion>5.11.10.Final</hibernateSearchVersion>
 		<luceneVersion>5.5.5</luceneVersion>
 		<aspectjVersion>1.9.9.1</aspectjVersion>
-		<jacksonVersion>2.13.3</jacksonVersion>
+		<jacksonVersion>2.13.4</jacksonVersion>
 		<junitVersion>5.8.2</junitVersion>
 		<mockitoVersion>3.12.4</mockitoVersion>
 		<hamcrestVersion>2.2</hamcrestVersion>
@@ -1132,7 +1132,7 @@
 		<log4jVersion>2.17.2</log4jVersion>
 		<owaspCsrfGuardVersion>4.1.4</owaspCsrfGuardVersion>
 
-		<customArgLineForTesting />
+		<customArgLineForTesting/>
 
 		<sonar.host.url>https://sonar.openmrs.org</sonar.host.url>		
 		<sonar.issuesReport.html.enable>true</sonar.issuesReport.html.enable>
