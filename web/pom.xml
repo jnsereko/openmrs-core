@@ -131,7 +131,7 @@
 	   <dependency>
 		   <groupId>org.apache.tomcat</groupId>
 		   <artifactId>tomcat-jasper</artifactId>
-		   <version>8.5.71</version>
+		   <version>8.5.85</version>
 		   <scope>provided</scope>
 	   </dependency>
 	   <dependency>
